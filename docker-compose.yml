@@ -1,0 +1,28 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+      DB_HOST: postgres 
+      DB_NAME: pokedex
+      DB_USER: postgres
+      DB_PASS: Piton1961*
+      JWT_SECRET: mi_secreto_jwt
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: pokedex
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Piton1961*
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
