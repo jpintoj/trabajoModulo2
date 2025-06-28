@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "e1f5b1c9-612b-4539-8594-8f1256178724",
+		"name": "trabajo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45032232",
+		"_collection_link": "https://jaimepinto.postman.co/workspace/Jaime-Pinto's-Workspace~31f3703b-e8ea-4c7a-84f2-c18abd38f6c7/collection/45032232-e1f5b1c9-612b-4539-8594-8f1256178724?action=share&source=collection_link&creator=45032232"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/users/login",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/nuevouser",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/4",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/4",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pokemon/",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pokemon/nuevopoke",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pokemon/loginpoke",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pokemon/151",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pokemon/151",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
